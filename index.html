@@ -1,304 +1,131 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Biga Pizza</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/foundation.css" />
-    <script src="js/vendor/modernizr.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/vendor/jquery.easing.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Orbitron:900|Audiowide' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/styles.css" />
-    <script src="js/retrofix.js"></script>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Biga pizza menu</title>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/foundation.css" />
+	<script src="js/vendor/modernizr.js"></script>
 
-    <!-- Google Analytics -->
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	<!-- JQUERY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/vendor/jquery.easing.min.js"></script>
 
-     ga('create', 'UA-70268620-1', 'auto');
-     ga('send', 'pageview');
+	<!-- FONT AWESOME -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    </script>
-  </head>
-  <body>
-    <!-- navigation from foundation -->
+	<!-- SLICK -->
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
 
-    <div class="fixed">
-      <nav class="top-bar" data-topbar role="navigation" data-options="scrolltop:false;">
-        <ul class="title-area">
-          <li class="name">
-            <h1><a class="page-scroll" href="#home">Biga Pizza</a></h1>
-          </li>
-           <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-        </ul>
-
-        <section class="top-bar-section">
-          <!-- Right Nav Section -->
-          <ul class="right">
-            <li><a class="page-scroll" href="#events">Menu</a></li>
-            <li><a class="page-scroll" href="#about">About</a></li>
-            <li><a class="page-scroll" href="#contact">Contact</a></li>
-            <li><a class="page-scroll" href="#map-div">Map</a></li>
-          </ul>
-        </section>
-      </nav>
-    </div>
+	<!-- LOCAL --> 
+	<link rel="stylesheet" href="css/styles.css" />
+	<script type="text/javascript" src="js/bp.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 
 
-    <div id="carousel-container">
+</head>
 
-      <!-- Title -->
-      <div id="home" class="fullbleed container current" data-page="0">
-        <div class="row">
-          <h1 class="title-image large-12 columns"></h1>
-        </div>
-      </div>
+<body>
 
-      <div id="events" class="container first" data-page="1">
-        <div class="row">
-          <h2 class="small-8 small-offset-2 large-offset-4 large-4 columns">
-            Events
-          </h2>
-          <div class="large-12 large-centered small-10 small-centered events-holder columns">
-              <!-- Something -->
+<!--
+<p>728-2579</p>
+<p><a href="index.htm" >back to biga pizza </a></p>
+-->
 
-              <h3></h3>
-              <h2><strong><span class="style8">728-2579</span></strong></h2>
-              <p><strong><a href="index.htm" class="style11">back to biga pizza </a></strong></p>
-              <h2 class="style18">Antipasto </h2>
-              <p align="left"> <span class="style17"><span class="style20"><span class="style21"><span class="style39"><em>Antipasto Plate</em> - Italian salami, pepperoni, prosciutto di Parma, provolone, reggiano, roasted peppers, cherry tomatoes, pears, mixed olives, pepperoncini, fresh mozzarella, hot cherry peppers, fresh basil leaves, extra virgin olive oil &amp; house bread. <em> ~13</em></span></span></span></span></p>
-              <p class="style25"><em> Vegetarian Antipasto Plate </em>- fresh mozzarella, provolone, cherry tomatoes, roasted peppers, mixed olives, artichoke heart, pears, pepperoncini, hot cherry peppers, reggiano, fresh basil leaves, extra virgin olive oil &amp; house bread. ~11 </p>
-              <p class="style25"><em>Breads &amp; Spreads Plate </em>- housemade focaccia &amp; toast points, homemade hummus, sundried tomato tapenade, basil pesto &amp; olive oil. ~8 </p>
-              <p class="style25"> <em>Kids Plate </em>- fresh mozzarella, cherry tomatoes, garbanzo beans, fresh pears, black olives, pepperoni, craisins, &amp; housemade focaccia . small~5, large~8 </p>
-              <h2 class="style19">Salad </h2>
-              <p class="style40"> <span class="style21"><em>Caprese</em> - fresh mozzarella, cherry tomatoes, basil, extra virgin olive oil, basil oil, sea salt &amp; cracked peppercorn. ~ 5, ~8 </span></p>
-              <p class="style25"> <em>Chopped Mediterranean Salad</em> - romaine, roma tomatoes, garbanzo beans, pine nuts, cucumbers, kalamata and black olives, red onions, feta &amp; reggiano tossed in a lemon- basil vinaigrette. <em> ~6, ~9</em></p>
-              <p class="style25"><em> Caesar Salad</em> - romaine, olive oil, reggiano, anchovies, lemon &amp; house crouton. <em> ~5, ~8</em></p>
-              <p class="style25"> <em>Mixed Greens</em> - mixed greens, pickled red onions, pears, candied pecans &amp; gorgonzola with a white balsamic vinaigrette or buttermilk ranch dressing. ~6, ~9 </p>
-              <p class="style25"> <em>Panzanella</em> - braised scallions, roasted mushrooms, tomatoes, cucumbers, red onion, kalamata olives, black olives, feta, basil, fresh mozzarella, roasted garlic, olive oil, vinegar, reggiano &amp; toasted house bread. ~10 </p>
-              <p class="style21"> <strong><em>Portabella Mushroom Salad -</em> garlic oil roasted portabella mushroom, herbed goat cheese, balsamic glazed walnuts, cherry tomatoes, creamy basil &amp; balsamic vinaigrette, dried cranberries, crisp salad greens &amp; house crostini. <em> ~10 </em></strong></p>
-              <p class="style21"><strong>Sandwich </strong></p>
-              <p class="style21"><em> Served on our fresh baked bread with olive salad, chips, and dressed mixed greens.</em></p>
-              <p class="style21">&nbsp;</p>
-              <p class="style21"><strong><em> Tuscan Tuna</em></strong> - white tuna, capers, kalamata olives, field greens, tomatoes, pickled red onions, reggiano &amp; lemon aioli. <em> ~9</em></p>
-              <p class="style21"><strong><em> Italian Sausage</em></strong> - broiled Italian sausage with roasted onions, peppers, garlic, &amp; melted provolone. <em> ~9</em></p>
-              <p class="style21"><strong><em> Focaccia Sandwich-</em></strong> basil pesto, sun dried tomato tapenade, artichoke hearts, fresh mozzarella, basil leaves, field greens, &amp; herb oil. <em> ~9</em></p>
-              <p class="style21"><strong><em> Italiano</em></strong> - salami, pepperoni, soppressata, provolone, cherry peppers, basil leaves, olive oil, field greens, vinegar, herbs &amp; cracked pepper. <em> ~9</em></p>
-              <p class="style21"><strong><em> Portabella Mushroom Melt</em></strong> - roasted portabella mushroom , tomatoes, olives, roasted peppers, provolone, greens &amp; creamy garlic-balsamic vinaigrette. <em> ~10</em></p>
-              <p><span class="style21"><strong><em> Hummus &amp; Goat cheese- </em>housemade hummus, herbed goat cheese, cucumbers, tomatoes, greens &amp; lemon vinaigrette. </strong><em> ~9</em></span></p>
-              <p align="center"><br>
-              <em>Please ask your server about today&rsquo;s soup and specials. </em></p>
-              <p align="center">&nbsp;</p>
-              <h2 align="center" class="style2"> Pizza </h2>
-              <h2 align="center" class="style21"><strong><em> Choose 12&rdquo; or 16&rdquo; </em></strong></h2>
-              <h2 class="style21">&nbsp; </h2>
-              <p class="style36"><span class="style37"><em>Cheese - </em> tomato sauce, mozzarella &amp; herb oil. <em> ~10, ~16 &nbsp; </em></span></p>
-              <p class="style38"><em>Pepperoni -</em> hand sliced pepperoni, tomato sauce, mozzarella &amp; olive oil. <em> ~12, ~18</em></p>
-              <p class="style38"><em> Prosciutto &amp; Fig -</em> prosciutto di Parma, mascarpone, black mission fig paste, toasted almonds, mozzarella, fresh herbs &amp; herb infused olive oil<em>. ~13, ~19</em></p>
-              <p class="style38"><em> Caramelized Goat - </em> caramelized onions, goat cheese, fresh herbs, mozzarella, roasted garlic &amp; olive oil. <em> ~13, ~19</em></p>
-              <p class="style38"><em>Sicilian</em> - Italian sausage, mascarpone, roasted red peppers, mozzarella, roasted garlic, &amp; olive oil. <em> ~13, ~19</em></p>
-              <p class="style38"><em>Pesto - </em> basil pesto, goat cheese, roma tomatoes, toasted pine nuts, mozzarella &amp; olive oil. <em> ~13, ~19</em></p>
-              <p class="style38"><em>Sweet Potato, Bacon &amp; Maple Chipotle - </em> local bacon, caramelized sweet potatoes, toasted hazelnuts, olive oil, mozzarella &amp; maple-chipotle drizzle. <em> ~13, ~19</em></p>
-              <p align="left" class="style38"> <em>Hungarian Mushroom</em> - portabella and button mushrooms, herbed mascarpone, roasted garlic, mozzarella, smoked paprika &amp; olive oil. ~13, ~19 </p>
-              <p class="style38"><em> Artichoke - </em> artichoke hearts, feta, roasted red peppers, mozzarella, kalamata olives, garlic &amp; olive oil. <em> ~13, ~19</em></p>
-              <p class="style38"><em>Pompeii -</em> spinach, ricotta cheese, roasted red bell peppers, roasted garlic, olive oil &amp; mozzarella. <em> ~13, ~19</em></p>
-              <p class="style38"><em>Winter Squash - </em> local squash &amp; pumpkin, ricotta cheese, broiled leeks, mozzarella, garlic, fresh basil &amp; herb oil. <em> ~13, ~19 </em></p>
-              <p class="style38"><em> Vesuvio - </em> Italian salami, tomato sauce, cherry peppers, kalamata olives, mozzarella cheese &amp; olive oil. <em> ~13, ~19 </em></p>
-              <p class="style38"><em> Quattro Formaggio - </em> fresh mozzarella, provolone, gorgonzola, reggiano, garlic, olive oil &amp; peppercorn. <em> ~13, ~19 &nbsp;</em></p>
-              <p class="style28"><span class="style38"><em> Flathead Cherry - </em> housemade sausage, cherry chutney, smoked gouda, mozzarella, garlic oil &amp; parsley. <em> ~13, ~19</em></span></p>
-              <p>&nbsp;</p>
-              <p class="style21">&nbsp;</p>
-              <p align="center" class="style21"><strong><em> We are happy to do a &ldquo;half and half&rdquo; pie if the base sauces are the same, please add $1. </em></strong></p>
-              <p align="center" class="style21"><img width="33" height="30" src="menu_clip_image002.jpg"><strong> 12&rdquo; Gluten Free crusts available. $18</strong><img width="33" height="30" src="menu_clip_image003.jpg"></p>
-              <p align="center" class="style21"> _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ </p>
-              <h2 class="style21">&nbsp;</h2>
-              <h2 class="style21"><strong><em>Create Your Own Pizza:</em></strong></h2>
-              <p align="left" class="style21"> Base price <em>~7, ~13 </em></p>
-              <p align="left" class="style21"> Choose olive oil or tomato sauce. </p>
-              <p class="style21"><strong><em> Cheeses</em> :</strong> mozzarella, fresh mozzarella, goat cheese, reggiano, bleu cheese, feta, ricotta, provolone, mascarpone: <em>Add ~2</em></p>
-              <p class="style21"> <strong><em>Meats:</em></strong> Italian sausage, bacon, pepperoni, prosciutto di Parma, salami, eggs: <em>Add ~3</em> </p>
-              <p class="style21"><strong><em> Vegetables &amp; Other Toppings:</em></strong> caramelized onions, mushrooms, roasted peppers, spinach, roma tomatoes, roasted garlic, cherry tomatoes, pesto, sun dried tomatoes, artichoke hearts, kalamata olives, black olives, anchovies, pineapple, cherry peppers, jalapenos, capers, basil, pepperoncini: <em>Add ~2 </em></p>
-              <span class="style21"><em><br>
-              </em>
-              </span>
-              <h2 class="style21">Calzone: </h2>
-              <p class="style21"> <strong><em>Cheese Calzone</em></strong> - large calzone pocket stuffed with mozzarella cheese, ricotta cheese, &amp; brushed with extra virgin olive oil. <em> ~8</em></p>
-              <p class="style21"> <em>Sausage Calzone</em> - stuffed with Italian sausage, mozzarella &amp; ricotta cheese then painted with garlic oil. ~9 </p>
-              <p class="style21"> <em>Pesto Calzone</em> - large calzone pocket stuffed with basil pesto, mozzarella cheese, ricotta cheese, &amp; finished with herb oil. ~9 </p>
-              <p class="style21"><strong><em> Spinach &amp; Mushroom Calzone</em></strong> - spinach, mushrooms, roasted garlic, mozzarella, ricotta cheese, &amp; herb oil. <em> ~9</em></p>
-              <p> <span class="style21"><strong><em>Joey&rsquo;s Calzone</em></strong> - prosciutto di Parma, ricotta cheese, mascarpone, roasted peppers, mozzarella, garlic &amp; extra virgin olive oil. <em> ~10</em></span><em><br>
-                </em>
-              </p>
-              <p></p>
-              <p align="center">An 18% gratuity will be added to parties of six or more.</p>
-              <p align="center">&nbsp;</p>
-              <p align="center" class="style12">&nbsp; </p>
-              <h2 align="center" class="style21"><em> Dessert </em></h2>
-              <h2 align="center" class="style21"><em> Created especially for Biga Pizza by Margaret Ambrose-Barton. </em></h2>
-              <h2 class="style21">&nbsp; </h2>
-              <h2 class="style21"><strong><em> Tiramisu Parfait</em></strong> - espresso infused sponge cake layered with mascarpone, rum, and Marsala custard, topped with whipped cream and chocolate. <em> ~6</em></h2>
-              <h2 class="style21"><strong><em> Chocolate Mascarpone Mousse </em></strong>- chocolate mascarpone mousse, layered between Frangelico infused chocolate cake. Served with whipped cream. <em>~6</em></h2>
-              <h2><span class="style21"><em>Lemon-Raspberry Parfait-</em> gluten free sponge cake, layered with lemon curd, raspberries and rum mascarpone mousse. Served with whipped cream. <em>~6</em></span><br>
-              </h2>
-              <h2 align="center"><em> Special order desserts available.</em></h2>
-              <p align="center">&nbsp;</p>
-              <h2><strong> Beverage </strong></h2>
-              <p>&nbsp;</p>
-              <h2><strong><em> </em></strong><strong><em>Iced Tea ~2</em></strong></h2>
-              <h2><strong><em> Classic Sodas </em></strong><strong></strong><em> ~1.50<strong></strong></em></h2>
-              <h2> Coke, Diet Coke, 7-Up, Dr. Pepper</h2>
-              <p>&nbsp;</p>
-              <h2><strong><em> Italian Sodas </em></strong><strong></strong><em> ~3</em></h2>
-              <h2>Vanilla, Lime, Raspberry, Lemon, Cherry, Huckleberry</h2>
-              <p>&nbsp;</p>
-              <h2><strong><em> Specialty Drinks</em></strong><em>~2</em></h2>
-              <ul>
-                <li>
-                  <h2> Orangina </h2>
-                </li>
-                <li>
-                  <h2> San Pellegrino Limonata </h2>
-                </li>
-                <li>
-                  <h2> San Pellegrino Orange Aranciata </h2>
-                </li>
-                <li>
-                  <h2> Blue Sky Natural Root Beer </h2>
-                </li>
-                <li>
-                  <h2> Blue Sky Natural Ginger Ale<strong></strong></h2>
-                </li>
-                <li>
-                  <h2> Blue Sky Natural Cream<strong></strong></h2>
-                </li>
-              </ul>
-              <h2><strong><em> &nbsp;</em></strong></h2>
-              <h2><strong><em> Non-Alcoholic Beer </em></strong><strong></strong><em> ~2</em></h2>
-              <ul>
-                <li>
-                  <h2> Guinness Kaliber </h2>
-                </li>
-              </ul>
-              <h2>&nbsp; </h2>
-              <h2><strong><em> Mineral Water </em></strong></h2>
-              <ul>
-                <li>
-                  <h2> San Pellegrino Sparkling Mineral Water 8oz. bottle <em>~2</em></h2>
-                </li>
-                <li>
-                  <h2>San Pellegrino Sparkling Mineral Water 25.3oz. bottle <em> ~4</em></h2>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <h2> San Pellegrino Acqua Pana 25.3oz. bottle <em> ~4 </em></h2>
-                </li>
-              </ul>
-              <h2>&nbsp; </h2>
-              <h2><strong><em> Juices </em></strong></h2>
-              <ul>
-                <li>
-                  <h2> Martinelli's Sparkling Apple Cider 25.4oz <em>~4</em></h2>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <h2> Organic apple juice <em>~2</em></h2>
-                </li>
-              </ul>
-              <h2>&nbsp; </h2>
-              <h2><strong><em> Coffee</em></strong><em> ~2 </em></h2>
-              <h2> Italian roast from Hunter Bay Coffee Roasters. </h2>
-              <h2>&nbsp; </h2>
-              <h2><strong><em> Hot Tea </em></strong><strong></strong><strong><em> ~</em></strong><em> 1.50<strong></strong></em></h2>
-              <h2> herbal, black, green </h2>
-              <strong><em><br>
-              </em></strong>
-              <h4>&nbsp; </h4>
-              <h2>&nbsp;</h2>
-              <div align="center">
-                <h1><a href="index.htm" class="style10">back to biga pizza</a><em><br>
-                  </em>
-                </h1>
-              </div>
+<div id='menu'>
+	<div id='pizza'>
+		<p class="title"> Pizzas </p>
+		<p> Choose 12&rdquo; or 16&rdquo; </p>
+		<p> We are happy to do a &ldquo;half and half&rdquo; pie if the base sauces are the same, please add $1. </p>
+		<p>Gluten Free crusts available. $18</p>
+		<p><div class="name">Cheese</div>tomato sauce, mozzarella &amp; herb oil.  ~10, ~16 &nbsp; </p>
+		<p><div class="name">Pepperoni</div>hand sliced pepperoni, tomato sauce, mozzarella &amp; olive oil.  ~12, ~18</p>
+		<p><div class="name">Prosciutto &amp; Fig</div>prosciutto di Parma, mascarpone, black mission fig paste, toasted almonds, mozzarella, fresh herbs &amp; herb infused olive oil. ~13, ~19</p>
+		<p><div class="name">Caramelized Goat</div>caramelized onions, goat cheese, fresh herbs, mozzarella, roasted garlic &amp; olive oil.  ~13, ~19</p>
+		<p><div class="name">Sicilian</div>Italian sausage, mascarpone, roasted red peppers, mozzarella, roasted garlic, &amp; olive oil.  ~13, ~19</p>
+		<p><div class="name">Pesto</div> basil pesto, goat cheese, roma tomatoes, toasted pine nuts, mozzarella &amp; olive oil.  ~13, ~19</p>
+		<p><div class="name">Sweet Potato, Bacon &amp; Maple Chipotle</div>local bacon, caramelized sweet potatoes, toasted hazelnuts, olive oil, mozzarella &amp; maple-chipotle drizzle.  ~13, ~19</p>
+		<p><div class="name">Hungarian Mushroom</div>portabella and button mushrooms, herbed mascarpone, roasted garlic, mozzarella, smoked paprika &amp; olive oil. ~13, ~19 </p>
+		<p><div class="name">Artichoke</div>artichoke hearts, feta, roasted red peppers, mozzarella, kalamata olives, garlic &amp; olive oil.  ~13, ~19</p>
+		<p><div class="name">Pompeii</div>spinach, ricotta cheese, roasted red bell peppers, roasted garlic, olive oil &amp; mozzarella.  ~13, ~19</p>
+		<p><div class="name">Winter Squash</div>local squash &amp; pumpkin, ricotta cheese, broiled leeks, mozzarella, garlic, fresh basil &amp; herb oil.  ~13, ~19 </p>
+		<p><div class="name">Vesuvio</div>Italian salami, tomato sauce, cherry peppers, kalamata olives, mozzarella cheese &amp; olive oil.  ~13, ~19 </p>
+		<p><div class="name">Quattro Formaggio</div>fresh mozzarella, provolone, gorgonzola, reggiano, garlic, olive oil &amp; peppercorn.  ~13, ~19 &nbsp;</p>
+		<p><div class="name">Flathead Cherry</div>housemade sausage, cherry chutney, smoked gouda, mozzarella, garlic oil &amp; parsley.  ~13, ~19</p>
+		<p class="title">Create Your Own Pizza:</p>
+		<p> Base price ~7, ~13 </p>
+		<p><div class="name">Sauce</div> - Olive oil or tomato sauce. </p>
+		<p><div class="name">Cheese</div> - mozzarella, fresh mozzarella, goat cheese, reggiano, bleu cheese, feta, ricotta, provolone, mascarpone: Add ~2</p>
+		<p><div class="name">Meat</div> - Italian sausage, bacon, pepperoni, prosciutto di Parma, salami, eggs: Add ~3 </p>
+		<p><div class="name">Toppings</div> -Caramelized onions, mushrooms, roasted peppers, spinach, roma tomatoes, roasted garlic, cherry tomatoes, pesto, sun dried tomatoes, artichoke hearts, kalamata olives, black olives, anchovies, pineapple, cherry peppers, jalapenos, capers, basil, pepperoncini: Add ~2 </p>
+	</div>
 
+	<div id="antipasto">
+		<p class="title">Antipasto</p>
+		<p><div class="name">Antipasto Plate</div>Italian salami, pepperoni, prosciutto di Parma, provolone, reggiano, roasted peppers, cherry tomatoes, pears, mixed olives, pepperoncini, fresh mozzarella, hot cherry peppers, fresh basil leaves, extra virgin olive oil &amp; house bread.  ~13</p>
+		<p><div class="name">Vegetarian Antipasto Plate</div>fresh mozzarella, provolone, cherry tomatoes, roasted peppers, mixed olives, artichoke heart, pears, pepperoncini, hot cherry peppers, reggiano, fresh basil leaves, extra virgin olive oil &amp; house bread. ~11 </p>
+		<p><div class="name">Breads &amp; Spreads Plate</div>housemade focaccia &amp; toast points, homemade hummus, sundried tomato tapenade, basil pesto &amp; olive oil. ~8 </p>
+		<p><div class="name">Kids Plate</div>fresh mozzarella, cherry tomatoes, garbanzo beans, fresh pears, black olives, pepperoni, craisins, &amp; housemade focaccia . small~5, large~8 </p>
+	</div>
 
-          </div>
-       </div>
-      </div>
+	<div id="salad">
+	<p class="title">Salads</p>
+	<p><div class="name">Caprese</div>fresh mozzarella, cherry tomatoes, basil, extra virgin olive oil, basil oil, sea salt &amp; cracked peppercorn. ~ 5, ~8 </p>
+	<p><div class="name">Chopped Mediterranean Salad</div>romaine, roma tomatoes, garbanzo beans, pine nuts, cucumbers, kalamata and black olives, red onions, feta &amp; reggiano tossed in a lemon- basil vinaigrette.  ~6, ~9</p>
+	<p><div class="name">Caesar Salad</div>romaine, olive oil, reggiano, anchovies, lemon &amp; house crouton.  ~5, ~8</p>
+	<p><div class="name">Mixed Greens</div>mixed greens, pickled red onions, pears, candied pecans &amp; gorgonzola with a white balsamic vinaigrette or buttermilk ranch dressing. ~6, ~9 </p>
+	<p><div class="name">Panzanella</div>braised scallions, roasted mushrooms, tomatoes, cucumbers, red onion, kalamata olives, black olives, feta, basil, fresh mozzarella, roasted garlic, olive oil, vinegar, reggiano &amp; toasted house bread. ~10 </p>
+	<p><div class="name">Portabella Mushroom Salad</div>garlic oil roasted portabella mushroom, herbed goat cheese, balsamic glazed walnuts, cherry tomatoes, creamy basil &amp; balsamic vinaigrette, dried cranberries, crisp salad greens &amp; house crostini.  ~10 </p>
+	</div>
 
-      <div id="about" class="container second" data-page="2">
-        <div class="row">
-          <h2 class="small-8 small-offset-2 large-offset-4 large-4 columns">
-            About
-          </h2>
-        </div>
-        <div class="row">
-          <div class="small-10 small-centered   columns">
-          <p>Biga Pizza is teh best</p>
-          </div>
-        </div>
-      </div>
+	<div id="sandwich">
+		<p class="title">Sandwiches</p>
+		<!--<p>Served on our fresh baked bread with olive salad, chips, and dressed mixed greens.</p>-->
+		<p><div class="name">Tuscan Tuna</div>white tuna, capers, kalamata olives, field greens, tomatoes, pickled red onions, reggiano &amp; lemon aioli.  ~9</p>
+		<p><div class="name">Italian Sausage</div>broiled Italian sausage with roasted onions, peppers, garlic, &amp; melted provolone.  ~9</p>
+		<p><div class="name">Focaccia Sandwich</div>basil pesto, sun dried tomato tapenade, artichoke hearts, fresh mozzarella, basil leaves, field greens, &amp; herb oil.  ~9</p>
+		<p><div class="name">Italiano</div>salami, pepperoni, soppressata, provolone, cherry peppers, basil leaves, olive oil, field greens, vinegar, herbs &amp; cracked pepper.  ~9</p>
+		<p><div class="name">Portabella Mushroom Melt</div>roasted portabella mushroom , tomatoes, olives, roasted peppers, provolone, greens &amp; creamy garlic-balsamic vinaigrette.  ~10</p>
+		<p><div class="name">Hummus &amp; Goat cheese</div>housemade hummus, herbed goat cheese, cucumbers, tomatoes, greens &amp; lemon vinaigrette.  ~9</p>
+		<!--<p>Ask your server about today&rsquo;s soup and specials. </p>-->
+	</div>
 
-      <div id="contact" class="container fourth" data-page="3">
-        <div class="row">
-          <h2 class="small-8 small-offset-2 large-offset-4 large-4 columns">
-            Contact
-          </h2>
-          <div class="address medium-5 columns">833 S Higgins, Missoula, MT</div>
-          <div class="hours medium-5 columns">
-            <p>Monday-Tuesday: 11am-7pm</p>
-            <p>Wednesday-Saturday: 11am-10pm</p>
-            <p>Sunday: 12pm-5pm</p>
-          </div>
-          <a class="phone medium-5 columns" href="tel:4069266911">406-926-6911</a>
-          <a class="email medium-5 columns" href="mailto:admin@retrofixgaming.com">admin@retrofixgaming.com</a>
-          <div class="social-media-container medium-5 medium-uncentered columns">
-            <div class="social-media small-2 small-offset-1 columns">
-              <a href="https://www.facebook.com/RetroFixGaming/"><i class="fa fa-facebook fa-3x"></i></a>
-            </div>
-            <div class="social-media small-2 columns">
-              <a href="https://instagram.com/retrofixgaming/"><i class="fa fa-instagram fa-3x"></i></a>
-            </div>
-            <div class="social-media small-2 columns">
-              <a href="https://www.pinterest.com/retrofixgaming/"><i class="fa fa-pinterest fa-3x"></i></a>
-            </div>
-            <div class="social-media small-2 columns">
-              <a href="https://twitter.com/retrofix_gaming"><i class="fa fa-twitter fa-3x"></i></a>
-            </div>
-            <div class="social-media small-2 end columns">
-              <a href="http://retrofixgaming.blogspot.com/"><i class="fa fa-blogger fa-3x"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
+	<div id="calzone">
+		<p class="title">Calzones </p>
+		<p><div class="name">Cheese Calzone</div>large calzone pocket stuffed with mozzarella cheese, ricotta cheese, &amp; brushed with extra virgin olive oil.  ~8</p>
+		<p><div class="name">Sausage Calzone</div>stuffed with Italian sausage, mozzarella &amp; ricotta cheese then painted with garlic oil. ~9 </p>
+		<p><div class="name">Pesto Calzone</div>large calzone pocket stuffed with basil pesto, mozzarella cheese, ricotta cheese, &amp; finished with herb oil. ~9 </p>
+		<p><div class="name">Spinach &amp; Mushroom Calzone</div>spinach, mushrooms, roasted garlic, mozzarella, ricotta cheese, &amp; herb oil.  ~9</p>
+		<p><div class="name">Joey&rsquo;s Calzone</div>prosciutto di Parma, ricotta cheese, mascarpone, roasted peppers, mozzarella, garlic &amp; extra virgin olive oil.  ~10<br></p>
+	</div>
 
-      <div id="map-div" class="container fifth" data-page="4">
-        <div class="row">
-          <h2 class="small-8 small-offset-2 large-offset-4 large-4 columns">
-            Map
-          </h2>
-          <div class="large-12 large-centered small-10 small-centered columns map-holder">
-            <!--something-->
-          </div>
-        </div>
-      </div>
+	<div id="dessert">
+		<p class="title"> Desserts </p>
+		<!--<p> Created especially for Biga Pizza by Margaret Ambrose-Barton. </p>-->
+		<p><div class="name">Tiramisu Parfait</div>espresso infused sponge cake layered with mascarpone, rum, and Marsala custard, topped with whipped cream and chocolate.  ~6</p>
+		<p><div class="name">Chocolate Mascarpone Mousse</div>chocolate mascarpone mousse, layered between Frangelico infused chocolate cake. Served with whipped cream. ~6</p>
+		<p><div class="name">Lemon-Raspberry Parfait</div>gluten free sponge cake, layered with lemon curd, raspberries and rum mascarpone mousse. Served with whipped cream. ~6</p>
+		<p> Special order desserts available.</p>
+	</div>
 
-    </div>
+	<div id="beverage">
+		<p class="title"> Beverages </p>
+		<p><div class="name"> Iced Tea ~2</div></p>
+		<p><div class="name">Soda ~1.50</div> Coke, Diet Coke, 7-Up, Dr. Pepper</p>
+		<p><div class="name"> Italian Sodas  ~3</div>Vanilla, Lime, Raspberry, Lemon, Cherry, Huckleberry</p>
+		<p><div class="name"> Specialty Drinks~2</div>Orangina, San Pellegrino Limonata, San Pellegrino Orange Aranciata, Blue Sky Natural Root Beer, Blue Sky Natural Ginger Ale, Blue Sky Natural Cream</p>
+		<p><div class="name"> Non-Alcoholic Beer  ~2</div>Guinness Kaliber </p>
+		<p><div class="name">Mineral Water</div>San Pellegrino Sparkling Mineral Water 8oz. bottle ~2</p>
+		<p>San Pellegrino Sparkling Mineral Water 25.3oz. bottle  ~4</p>
+		<p> San Pellegrino Acqua Pana 25.3oz. bottle  ~4 </p>
+		<p><div class="name">Juices </div>Martinelli's Sparkling Apple Cider 25.4oz ~4</p>
+		<p> Organic apple juice ~2</p>
+		<p><div class="name">Coffee ~2</div>Italian roast from Hunter Bay Coffee Roasters. </p>
+		<p><div class="name">Hot Tea  ~ 1.50</div>herbal, black, green </p>
+	</div>
+</div>
 
-    <script>
-      $(document).foundation();
-    </script>
-  </body>
+</body>
 </html>
