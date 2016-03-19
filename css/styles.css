@@ -12,7 +12,7 @@ body {
   color:#CE3000;
 }
 .name {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
   color:#CE3000;
 }
@@ -36,6 +36,7 @@ a:active {
   padding-top:45px;
   height:100%;
   padding-bottom: 150px;
+  font-size:20px;
 }
 
 /* IS MOBILE PHONE */
@@ -49,7 +50,7 @@ a:active {
     width:0;
   }
 
-  #menu,#pizza,#antipasto,#salad,#sandwich,#beverage,#dessert,#calzone{
+  #menu,#pizza,#antipasto,#salad,#sandwich,#beverage,#dessert,#calzone,#create{
       height: 100%;
       width: 100%;
   }
